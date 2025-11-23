@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<h1>Admin Dashboard</h1>
+
+<div class="card">
+    <h2>Questions</h2>
+    <div id="questionsList"></div>
+
+    <h3>Add Question</h3>
+    <input id="newQ" placeholder="Question">
+    <input id="newA" placeholder="Answer">
+    <button id="addBtn">Add</button>
+
+    <h3>Delete (IDs comma separated)</h3>
+    <input id="delIds" placeholder="1,2,3">
+    <button id="delBtn">Delete Selected</button>
+</div>
+
+<div class="card">
+    <h2>Marks</h2>
+    <button id="refreshMarks">Refresh</button>
+    <pre id="marksBox"></pre>
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
