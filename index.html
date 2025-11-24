@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Portal</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="card">
+    <h1>Quiz Login</h1>
+
+    <input id="reg" placeholder="Enter 8-digit Reg No">
+    <input id="name" placeholder="Enter your name">
+
+    <button id="startBtn">Start Quiz</button>
+</div>
+
+<div id="quizBox" class="card" style="display:none">
+    <h2 id="questionCount"></h2>
+    <form id="quizForm"></form>
+    <button id="submitBtn">Submit</button>
+</div>
+
+<div id="resultBox" class="card" style="display:none">
+    <h2>Your Result</h2>
+    <pre id="resultText"></pre>
+</div>
+
+<script src="/static/js/app.js"></script>
+</body>
+</html>
